@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+
+#slider{
+    width: 100%;
+    margin: 0 auto;
+    
+    
+}
+
+.controlls{
+    margin: 0 auto;
+    width: 640px; /* CALC WIDTH OF IMAGE */
+    display: flex;
+    justify-content: space-between
+}
+
+.left, .right{
+    font-size: 50px; 
+    cursor: pointer;
+}
+
+.right{
+    margin-right: 50px;
+}
+.left{
+    margin-left: 50px;
+}
+
+#images{
+    max-width: 640px; /* calc image width */
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    height: 425px;  /* Calc slides--list__img height/2 */
+    overflow: hidden;
+}
+
+
+.slides--list__img{
+    max-width: 100%;
+    height: auto;
+    display: none;
+    
+}
+.active{
+    display: block;
+    opacity: 1;
+}
